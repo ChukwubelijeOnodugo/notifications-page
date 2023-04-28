@@ -1,0 +1,87 @@
+.notification {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.notification.unread {
+    background: var(--vlgblue);
+    border-radius: 8px;
+}
+
+.notification > img:first-child {
+    padding-right: 10px;
+}
+
+.notification .posted-pic {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.notification .posted-pic:hover {
+    background: var(--lgblue2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    color: var(--dgblue);
+    text-align: left;
+    flex-grow: 3;
+}
+
+.details div {
+    margin-bottom: 3px;
+}
+
+.details div:nth-child(2) {
+    margin-bottom: 6px;
+}
+
+.details .name,
+.details .post,
+.details .club {
+    font-weight: bold;
+}
+
+.details .name:hover,
+.details .post:hover,
+.details .club:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.details .name {
+    color: var(--vdblue);
+}
+
+.details .post {
+    color: var(--dgblue);
+}
+
+.details .club {
+    color: var(--blue);
+}
+
+.details .created-at {
+    color: var(--gblue);
+}
+
+.details .private-message {
+    border: 1px solid var(--lgblue2);
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.details .private-message:hover {
+    background: var(--lgblue2);
+    cursor: pointer;
+}
+
+.details .read-indicator {
+    font-size: 8px;
+    color: var(--red);
+}
