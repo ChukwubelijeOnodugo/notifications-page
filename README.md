@@ -33,8 +33,6 @@ Users should be able to:
 - CSS Grid
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 Intuitively knew when to use context to maintain consistent state. Would usually have devised a local state solution.
